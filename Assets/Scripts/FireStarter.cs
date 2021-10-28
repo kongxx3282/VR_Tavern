@@ -5,11 +5,13 @@ using UnityEngine;
 public class FireStarter : MonoBehaviour
 {
     public ParticleSystem fire;
+    public GameObject light;
 
     // Start is called before the first frame update
     void Start()
     {
         fire.Pause();
+        light.SetActive(false);
     }
 
     // Update is called once per frame
@@ -18,6 +20,7 @@ public class FireStarter : MonoBehaviour
     	if (candle.gameObject.tag == "Candle")
     	{
             fire.Play();
+            light.SetActive(true);
     	}
     	
     }
