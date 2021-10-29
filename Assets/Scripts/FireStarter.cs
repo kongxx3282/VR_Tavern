@@ -6,12 +6,18 @@ public class FireStarter : MonoBehaviour
 {
     public ParticleSystem fire;
     public GameObject light;
+    public GameObject lampOne;
+    public GameObject lampTwo;
+    public GameObject lampThree;
 
     // Start is called before the first frame update
     void Start()
     {
         fire.Pause();
         light.SetActive(false);
+        lampOne.SetActive(false);
+        lampTwo.SetActive(false);
+        lampThree.SetActive(false);
     }
 
     // Update is called once per frame
@@ -21,6 +27,9 @@ public class FireStarter : MonoBehaviour
     	{
             fire.Play();
             light.SetActive(true);
+            lampOne.SetActive(true);
+            lampTwo.SetActive(true);
+            lampThree.SetActive(true);
     	}
     	
     }
