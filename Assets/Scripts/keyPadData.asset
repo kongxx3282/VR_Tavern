@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: keyPadData
   m_EditorClassIdentifier: 
   solution: 04000000050000000600000007000000
-  firstNum: 0
-  secondNum: 0
-  thirdNum: 0
-  fourthNum: 0
+  firstNum: 3
+  secondNum: 8
+  thirdNum: 5
+  fourthNum: 2
