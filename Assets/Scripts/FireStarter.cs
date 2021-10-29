@@ -9,6 +9,8 @@ public class FireStarter : MonoBehaviour
     public GameObject lampOne;
     public GameObject lampTwo;
     public GameObject lampThree;
+    public GameObject fireOne;
+    public GameObject fireTwo;
     public GameObject fireThree;
 
     // Start is called before the first frame update
@@ -19,6 +21,9 @@ public class FireStarter : MonoBehaviour
         lampOne.SetActive(false);
         lampTwo.SetActive(false);
         lampThree.SetActive(false);
+
+        fireOne.SetActive(false);
+        fireTwo.SetActive(false);
         fireThree.SetActive(false);
     }
 
@@ -32,6 +37,9 @@ public class FireStarter : MonoBehaviour
             lampOne.SetActive(true);
             lampTwo.SetActive(true);
             lampThree.SetActive(true);
+
+            fireOne.SetActive(true);
+            fireTwo.SetActive(true);
             fireThree.SetActive(true);
     	}
     	
