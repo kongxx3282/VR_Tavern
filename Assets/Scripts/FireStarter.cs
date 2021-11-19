@@ -12,19 +12,15 @@ public class FireStarter : MonoBehaviour
     public GameObject fireOne;
     public GameObject fireTwo;
     public GameObject fireThree;
+    public GameObject bakedScene;
+    public GameObject unbakedScene;
 
     // Start is called before the first frame update
     void Start()
     {
         fire.Pause();
-        light.SetActive(false);
-        lampOne.SetActive(false);
-        lampTwo.SetActive(false);
-        lampThree.SetActive(false);
-
-        fireOne.SetActive(false);
-        fireTwo.SetActive(false);
-        fireThree.SetActive(false);
+        bakedScene.SetActive(false);
+        unbakedScene.SetActive(true);
     }
 
     // Update is called once per frame
@@ -32,15 +28,9 @@ public class FireStarter : MonoBehaviour
     {
     	if (candle.gameObject.tag == "Candle")
     	{
-            fire.Play();
-            light.SetActive(true);
-            lampOne.SetActive(true);
-            lampTwo.SetActive(true);
-            lampThree.SetActive(true);
-
-            fireOne.SetActive(true);
-            fireTwo.SetActive(true);
-            fireThree.SetActive(true);
+            unbakedScene.SetActive(false);
+            bakedScene.SetActive(true);
+            
     	}
     	
     }
