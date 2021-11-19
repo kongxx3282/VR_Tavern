@@ -25806,7 +25806,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1286015506251246517, guid: 20b588a70940b4418bc46ea1e361b810, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1286015506251246517, guid: 20b588a70940b4418bc46ea1e361b810, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -25912,6 +25912,10 @@ PrefabInstance:
       propertyPath: m_IsKinematic
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1286015506928926780, guid: 20b588a70940b4418bc46ea1e361b810, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1286015507257516991, guid: 20b588a70940b4418bc46ea1e361b810, type: 3}
       propertyPath: m_UseGravity
       value: 1
@@ -25947,6 +25951,10 @@ PrefabInstance:
     - target: {fileID: 1286015507482819995, guid: 20b588a70940b4418bc46ea1e361b810, type: 3}
       propertyPath: m_Lightmapping
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286015507517864978, guid: 20b588a70940b4418bc46ea1e361b810, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1286015507649104220, guid: 20b588a70940b4418bc46ea1e361b810, type: 3}
       propertyPath: m_Intensity
@@ -26007,6 +26015,10 @@ PrefabInstance:
     - target: {fileID: 1286630985410897782, guid: 20b588a70940b4418bc46ea1e361b810, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1287052375216328703, guid: 20b588a70940b4418bc46ea1e361b810, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1287471328549869061, guid: 20b588a70940b4418bc46ea1e361b810, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -28903,7 +28915,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1286015506251246517, guid: 20b588a70940b4418bc46ea1e361b810, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1286015506251246518, guid: 20b588a70940b4418bc46ea1e361b810, type: 3}
       propertyPath: m_RootOrder
